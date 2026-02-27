@@ -1,0 +1,12 @@
+[project]
+name = "Weeks-of-life-tui"
+version = "1.0.0"
+description = "Life in Weeks TUI Calendar"
+dependencies = [
+    "textual>=0.80.0",
+    "python-dateutil",
+    "tomlkit",
+]
+
+[project.scripts]
+life = "life.app:run_life"

@@ -1,0 +1,4 @@
+Weeks_of_life_tui.egg-info
+example-config.toml
+*/__pycache__
+.venv
