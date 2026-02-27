@@ -66,11 +66,14 @@ class LifeGrid(Widget):
                 if week_index >= total:
                     break
 
+                # if week_index < lived:
+                #     grid.append("■ ", style="bold white")
+                # else:
+                #     grid.append("· ", style="dim")
                 if week_index < lived:
-                    grid.append("■ ", style="bold white")
+                    grid.append("● ", style="accent")
                 else:
-                    grid.append("· ", style="dim")
-
+                    grid.append("○ ", style="dim")
                 week_index += 1
 
             grid.append("\n")
